@@ -1,4 +1,4 @@
-# ParaHAT: A Fast Noisy Long Read Alignment Tool with Multi-Level Parallelism
+# Fast noisy long read alignment with multi‑level parallelism
 
 ## Introduction
 
@@ -70,3 +70,6 @@ The basic parameters remain consistent with the original rHAT algorithm. The num
 -t: the number of threads used for multi-thread running. [1]
 ```
 
+## Citations
+
+Xia Z, Yang C, Peng C, et al. Fast noisy long read alignment with multi-level parallelism[J]. BMC bioinformatics, 2025, 26(1): 1-31. https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-025-06129-w
