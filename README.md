@@ -70,6 +70,13 @@ The basic parameters remain consistent with the original rHAT algorithm. The num
 -t: the number of threads used for multi-thread running. [1]
 ```
 
+## Single Node Benchmark Tools
+
+The WFA alignment library used in the single-node experiments includes two versions: WFA-basic and WFA-adap. WFA-basic performs exact alignment with a recall of 100%, while WFA-adap uses an approximate algorithm, which may result in slight recall loss.
+
+In our original manuscript, both the CPU and GPU versions of WFA used the WFA-adap implementation, as it offers faster execution. If WFA-basic is used for exact alignment, its results are consistent with those produced by the KSW2 library, with both achieving 100% recall.
+
+
 ## Citations
 
 Xia Z, Yang C, Peng C, et al. Fast noisy long read alignment with multi-level parallelism[J]. BMC bioinformatics, 2025, 26(1): 1-31. https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-025-06129-w
