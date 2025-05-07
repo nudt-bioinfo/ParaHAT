@@ -72,9 +72,9 @@ The basic parameters remain consistent with the original rHAT algorithm. The num
 
 ## Single Node Benchmark Tools
 
-The WFA alignment library used in the single-node experiments includes two versions: WFA-basic and WFA-adap. WFA-basic performs exact alignment with a recall of 100%, while WFA-adap uses an approximate algorithm, which may result in slight recall loss.
+The WFA alignment library used in the single-node experiments includes two versions: WFA-basic and WFA-adap. **WFA-basic** performs exact alignment with a recall of **100%**, while WFA-adap uses an approximate algorithm, which may result in slight recall loss.
 
-In our original manuscript, both the CPU and GPU versions of WFA used the WFA-adap implementation, as it offers faster execution. If WFA-basic is used for exact alignment, its results are consistent with those produced by the KSW2 library, with both achieving 100% recall.
+In our original manuscript, both the CPU and GPU versions of WFA used the WFA-adap implementation, as it offers faster execution. If **WFA-basic** is used for exact alignment, its results are consistent with those produced by the KSW2 library, with both achieving **100% recall**.
 
 
 ## Citations
